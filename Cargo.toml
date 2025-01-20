@@ -1,0 +1,10 @@
+[package]
+name = "fmpv2"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+dirs = "6.0.0"
+cmd_lib = "1.9.0"
+serde_json = "1.0.137"
+serde = { version = "1.0.137", features = ["derive"] }
